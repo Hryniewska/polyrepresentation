@@ -1,6 +1,6 @@
 # X-ray Transferable Polyrepresentation Learning
 
-[![Python version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-grey.svg?logo=python&logoColor=blue)](https://www.python.org/)
+[![Python version](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-grey.svg?logo=python&logoColor=blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-27338e?logo=OpenCV&logoColor=white)](https://opencv.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -30,21 +30,21 @@ To set up the required packages using Conda, you can create a Conda environment 
    cd polyrepresentation
    ```
 
-2. Create a Conda environment (replace myenv with your preferred environment name):
+2. Create a Conda environment:
    ```shell
-   conda create -n myenv python=3.8
+   conda create -n polyenv python=3.9
    ```
 
-4. Activate the Conda environment:
+4. Activate the conda environment:
    ```shell
-   conda activate myenv
+   conda activate polyenv
    ```
-5. Install the required packages using Conda:
+5. Install the required packages using conda:
    ```shell
    conda install matplotlib scikit-learn xgboost joblib seaborn PyWavelets pytorch torchvision -c pytorch
    conda install timm neptune-client albumentations -c conda-forge
    ```
-7. Install the remaining packages via pip
+7. Install the remaining packages via pip:
    ```shell
    pandas>=2.1.0
    numpy>=1.24.4
