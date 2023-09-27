@@ -40,15 +40,20 @@ albumentations
 ```
 
 ## Getting started
-git clone https://github.com/Hryniewska/polyrepresentation.git \
-cd polyrepresentation \
-\
-pip install -r **requirements.txt**
 
-For training Siamese Network select: **Siamese_Network_training.ipynb** \
-For XGBoost training select: **ML_training.ipynb** \
-For XGBoost inference select: **ML_inference.ipynb** \
-Pretrained XGBoost model: **model_xgb_estimator.json**
+1. Clone the repository:
+git clone https://github.com/Hryniewska/polyrepresentation.git
+cd polyrepresentation
+
+2. Install the required packages
+
+3. For training Siamese Network, use: **Siamese_Network_training.ipynb**
+
+4. For XGBoost training, use: **ML_training.ipynb**
+
+5. For XGBoost inference, use: **ML_inference.ipynb**
+
+6. Pretrained XGBoost model: **model_xgb_estimator.json**
 
 ## Reference
 
@@ -57,7 +62,7 @@ If you find our work useful, please cite our paper:
 ```
 @article{Hryniewskapolyrepresentation,
 	title={X-ray transferable polyrepresentation learning}, 
-	author={Anonymous},
+	author={Weronika Hryniewska and Przemys{\l}aw Biecek},
 	journal = {preprint},
 	year={2023}
 }
