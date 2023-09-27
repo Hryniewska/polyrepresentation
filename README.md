@@ -19,7 +19,27 @@
 
 🌍 **Versatility:** While initially applied to X-ray images, polyrepresentation's versatility makes it adaptable to diverse domains, offering a novel perspective on data representation.
 
-## How to run the code
+## Installation
+
+The package requirements are as follows:
+```
+pandas
+numpy
+matplotlib
+scikit-learn
+xgboost
+joblib
+dalex
+seaborn
+opencv-python
+PyWavelets
+torch
+timm
+neptune
+albumentations
+```
+
+## Getting started
 git clone https://github.com/Hryniewska/polyrepresentation.git \
 cd polyrepresentation \
 \
