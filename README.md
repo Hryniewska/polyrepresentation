@@ -24,20 +24,20 @@
 
 The package requirements are as follows:
 ```
-pandas
-numpy
-matplotlib
-scikit-learn
-xgboost
-joblib
-dalex
-seaborn
-opencv-python
-PyWavelets
-torch
-timm
-neptune
-albumentations
+pandas>=2.1.0
+numpy>=1.24.4
+matplotlib>=
+scikit-learn>=
+xgboost>=1.7.6
+joblib>=
+dalex>=1.5.0
+seaborn>=
+opencv-python>=4.7.0.72
+PyWavelets>=1.3.0
+torch>=1.12.0.dev20220511
+timm>=0.4.12
+neptune-client>=0.14.2
+albumentations>=
 ```
 
 ## Getting started
