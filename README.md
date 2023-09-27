@@ -22,23 +22,39 @@
 
 ## Installation
 
-The package requirements are as follows:
-```
-pandas>=2.1.0
-numpy>=1.24.4
-matplotlib>=
-scikit-learn>=
-xgboost>=1.7.6
-joblib>=
-dalex>=1.5.0
-seaborn>=
-opencv-python>=4.7.0.72
-PyWavelets>=1.3.0
-torch>=1.12.0.dev20220511
-timm>=0.4.12
-neptune-client>=0.14.2
-albumentations>=
-```
+To set up the required packages using Conda, you can create a Conda environment and install the necessary dependencies as follows:
+
+1. Clone the repository:
+   ```shell
+   git clone https://github.com/Hryniewska/polyrepresentation.git
+   cd polyrepresentation
+   ```
+
+2. Create a Conda environment (replace myenv with your preferred environment name):
+   ```shell
+   conda create -n myenv python=3.8
+   ```
+
+4. Activate the Conda environment:
+   ```shell
+   conda activate myenv
+   ```
+5. Install the required packages using Conda:
+   ```shell
+   conda install matplotlib scikit-learn xgboost joblib seaborn PyWavelets pytorch torchvision -c pytorch
+   conda install timm neptune-client albumentations -c conda-forge
+   ```
+7. Install the remaining packages via pip
+   ```shell
+   pandas>=2.1.0
+   numpy>=1.24.4
+   xgboost>=1.7.6
+   dalex>=1.5.0
+   opencv-python>=4.7.0
+   PyWavelets>=1.3.0
+   torch>=1.12.0
+   timm>=0.4.12
+   ```
 
 ## Getting started
 
