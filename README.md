@@ -62,9 +62,9 @@ To set up the required packages using Conda, you can create a Conda environment 
 
 To get started with this project, follow these files:
 
-- For training own Siamese Network, use: **Siamese_Network_training.ipynb**
+- For training own Siamese Network, use: [**Siamese_Network_training.ipynb**](Siamese_Network_training.ipynb)
 
-- For creating polyrepresentation, use: **polyrepresentation_training.ipynb**
+- For creating polyrepresentation, use: [**polyrepresentation_training.ipynb**](polyrepresentation_training.ipynb)
 
 
 
