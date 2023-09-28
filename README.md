@@ -4,7 +4,6 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-27338e?logo=OpenCV&logoColor=white)](https://opencv.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![PEP8](https://img.shields.io/badge/PEP8-compliant-brightgreen.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![DOI](https://img.shields.io/badge/DOI-in%20progress-b31b1b.svg)](https://arxiv.org/abs/TODO)
 
 
@@ -19,6 +18,9 @@
 📈 **Performance Boost:** Learn how polyrepresentation consistently outperforms single-model approaches, leading to improved results across different tasks and datasets.
 
 🌍 **Versatility:** While initially applied to X-ray images, polyrepresentation's versatility makes it adaptable to diverse domains, offering a novel perspective on data representation.
+
+
+![Schema](schema.png)
 
 ## Installation
 
@@ -56,17 +58,15 @@ To set up the required packages using Conda, you can create a Conda environment 
    timm>=0.4.12
    ```
 
-## Quick Start
+## Getting Started
 
-To quickly get started with this project, follow these steps:
+To get started with this project, follow these files:
 
-1. For training Siamese Network, use: **Siamese_Network_training.ipynb**
+- For training own Siamese Network, use: **Siamese_Network_training.ipynb**
 
-2. For XGBoost training, use: **ML_training.ipynb**
+- For creating polyrepresentation, use: **polyrepresentation_training.ipynb**
 
-3. For XGBoost inference, use: **ML_inference.ipynb**
 
-4. Pretrained XGBoost model: **model_xgb_estimator.json**
 
 ## Reference
 
