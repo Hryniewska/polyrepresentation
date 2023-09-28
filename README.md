@@ -56,21 +56,17 @@ To set up the required packages using Conda, you can create a Conda environment 
    timm>=0.4.12
    ```
 
-## Getting started
+## Quick Start
 
-1. Clone the repository:
-git clone https://github.com/Hryniewska/polyrepresentation.git
-cd polyrepresentation
+To quickly get started with this project, follow these steps:
 
-2. Install the required packages
+1. For training Siamese Network, use: **Siamese_Network_training.ipynb**
 
-3. For training Siamese Network, use: **Siamese_Network_training.ipynb**
+2. For XGBoost training, use: **ML_training.ipynb**
 
-4. For XGBoost training, use: **ML_training.ipynb**
+3. For XGBoost inference, use: **ML_inference.ipynb**
 
-5. For XGBoost inference, use: **ML_inference.ipynb**
-
-6. Pretrained XGBoost model: **model_xgb_estimator.json**
+4. Pretrained XGBoost model: **model_xgb_estimator.json**
 
 ## Reference
 
