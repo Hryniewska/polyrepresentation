@@ -1,9 +1,9 @@
 # X-ray Transferable Polyrepresentation Learning
 
-[![Python version](https://img.shields.io/badge/python-3.9%2B-grey.svg?logo=python&logoColor=blue)](https://www.python.org/)
+[![Python version](https://img.shields.io/badge/python-3.9%2B-lightgrey.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.7%2B-27338e?logo=OpenCV&logoColor=white)](https://opencv.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.1%2B-green)](https://scikit-learn.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.1%2B-green?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![DOI](https://img.shields.io/badge/DOI-in%20progress-b31b1b.svg)](https://arxiv.org/abs/TODO)
 
